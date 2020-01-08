@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	height: 100vh;
+	background-color: #333;
+}
+
+header {
+	margin: 0;
+	padding: 15px;
+	height: 48px;
+	background-color: #1d8eea;
+}
+
+header h1 {
+	margin: 0;
+	padding-left: 2%;
+}
+
+header .ttclogo {
+	width: 80px;
+	float: left;
+}
+
+.name {
+	padding-left: 80px;
+}
+
+.main {
+	width: 1000px;
+	height: 400px;
+	margin: 150px auto 0 auto;
+}
+
+.main .lcmlogo {
+	float: left;
+	width: 350px;
+}
+
+.main .and {
+	float: left;
+	margin: 90px 10px;
+}
+
+.and h1 {
+	font-size: 100px;
+	margin: 10px;
+	vertical-align: middle;
+}
+
+.main .ttclogo {
+	margin: 55px 30px;
+	width: 400px;
+}
+
+h1 {
+	color: #fff;
+	font-family: cursive;
+}
