@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-device-pixel-ratio: 1) {
 	.lcmlogo {
 		float: left;
 	}
