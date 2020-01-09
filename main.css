@@ -1,0 +1,72 @@
+@media screen and (min-width: 480px) {
+	.lcmlogo {
+		float: left;
+	}
+	
+	.and {
+		float: left;
+	}
+}
+
+
+body {
+	margin: 0;
+	background-color: #333;
+}
+
+header {
+	margin: 0;
+	padding-top: calc( (100vw - 480px)/(1280 - 480) * (11 - 9) + 9px);
+	padding-bottom: calc( (100vw - 480px)/(1280 - 480) * (20 - 16) + 16px);
+	padding-left: calc( (100vw - 480px)/(1280 - 480) * (12 - 10) + 10px);
+	height: calc( (100vw - 480px)/(1280 - 480) * (36 - 34) + 34px);
+	background-color: #1d8eea;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+	padding-left: calc( (100vw - 480px)/(1280 - 480) * (20 - 10) + 10px);
+}
+
+header .ttclogo {
+	width: calc( (100vw - 480px)/(1280 - 480) * (75 - 70) + 70px);
+	float: left;
+}
+
+.name {
+	padding-left: 80px;
+}
+
+.main {
+	width: max-content;
+	margin: 0 auto;
+	margin-top: calc( (100vw - 480px)/(1280 - 480) * (60 - 8) + 8vh);
+}
+
+.main .lcmlogo {
+	width: calc( (100vw - 480px)/(1280 - 480) * (350 - 220) + 220px);
+}
+
+.main .and {
+	margin-left: calc( (100vw - 480px)/(1280 - 480) * (50 - 20) + 20px);
+	margin-right: calc( (100vw - 480px)/(1280 - 480) * (65 - 20) + 20px);
+	margin-top: calc( (100vw - 480px)/(1280 - 480) * (90 - 30) + 30px);
+}
+
+.and h1 {
+	font-size: calc( (100vw - 480px)/(1280 - 480) * (100 - 90) + 90px);
+	text-align: center;
+	margin: 0;
+}
+
+.main .ttclogo {
+	width: calc( (100vw - 480px)/(1280 - 480) * (400 - 250) + 250px);
+	margin-top: calc( (100vw - 480px)/(1280 - 480) * (50 - 30) + 30px);
+}
+
+h1 {
+	font-size: calc( (100vw - 480px)/(1280 - 480) * (34 - 30) + 30px);
+	color: #fff;
+	font-family: cursive;
+}
