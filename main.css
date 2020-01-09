@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
 @media screen and (min-width: 480px) and (orientation: landscape) {
 	.lcmlogo {
 		float: left;
@@ -68,5 +70,5 @@ header .ttclogo {
 h1 {
 	font-size: calc( (100vw - 480px)/(1280 - 480) * (6 - 5) + 5vh);
 	color: #fff;
-	font-family: cursive;
+	font-family: 'Bree Serif', serif;
 }
