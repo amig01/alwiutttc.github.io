@@ -8,6 +8,11 @@
 	.and {
 		float: left;
 	}
+	
+	header h1 {
+	margin: 0;
+	margin-left: 7vw;
+}
 }
 
 
@@ -27,17 +32,12 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 0;
-	padding-left: calc( (100vw - 480px)/(1280 - 480) * (2 - 1) + 2vw);
+	margin-left: 13vh;
 }
 
 header .ttclogo {
 	width: calc( (100vw - 480px)/(1280 - 480) * (15 - 10) + 10vh);
 	float: left;
-}
-
-.name {
-	padding-left: 80px;
 }
 
 .main {
@@ -47,7 +47,7 @@ header .ttclogo {
 }
 
 .main .lcmlogo {
-	width: calc( (100vw - 480px)/(1280 - 480) * (350 - 220) + 220px);
+	width: calc( (100vw - 480px)/(1280 - 480) * (150 - 33) + 33vh);
 }
 
 .main .and {
@@ -57,13 +57,13 @@ header .ttclogo {
 }
 
 .and h1 {
-	font-size: calc( (100vw - 480px)/(1280 - 480) * (100 - 90) + 90px);
+	font-size: calc( (100vw - 480px)/(1280 - 480) * (40 - 13) + 13vh);
 	text-align: center;
 	margin: 0;
 }
 
 .main .ttclogo {
-	width: calc( (100vw - 480px)/(1280 - 480) * (400 - 250) + 250px);
+	width: calc( (100vw - 480px)/(1280 - 480) * (200 - 35) + 35vh);
 	margin-top: calc( (100vw - 480px)/(1280 - 480) * (50 - 30) + 30px);
 }
 
