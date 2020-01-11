@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+@media screen and (min-width: 480px) and (orientation: landscape) {
+	.lcmlogo {
+		float: left;
+	}
+	
+	.and {
+		float: left;
+	}
+	
+	header h1 {
+	margin: 0;
+	margin-left: 7vw;
+}
+}
+
+
+body {
+	margin: 0;
+	background-color: #333;
+}
+
+
+
+header {
+	margin: 0;
+	padding-top: calc( (100vw - 480px)/(1280 - 480) * (3 - 2) + 2vh);
+	padding-bottom: calc( (100vw - 480px)/(1280 - 480) * (4 - 3) + 3vh);
+	padding-left: calc( (100vw - 480px)/(1280 - 480) * (3 - 2) + 2vh);
+	height: calc( (100vw - 480px)/(1280 - 480) * (6 - 5) + 5vh);
+	background-color: #1d8eea;
+}
+
+header .ttclogo {
+	width: calc( (100vw - 480px)/(1280 - 480) * (15 - 10) + 10vh);
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+header a {
+	font-size: calc( (100vw - 480px)/(1280 - 480) * (6 - 5) + 5vh);
+	color: #fff;
+	font-family: 'Bree Serif', serif;
+	margin: 0;
+	padding-left: 2vh;
+}
+
+a::selection {
+	background-color: #fec223;
+}
+
+a:hover {
+	color: #ffdd44;
+}
+
+.section1 {
+	padding: calc( (100vw - 480px)/(1280 - 480) * (60 - 8) + 8vh) 0 calc( (100vh - 480px)/(1280 - 480) * (470 - 4) + 4vh) 0;
+}
+
+.main {
+	width: max-content;
+	margin: auto;
+}
+
+.main .lcmlogo {
+	height: calc( (100vw - 480px)/(1280 - 480) * (150 - 33) + 33vh);
+	width: calc( (100vw - 480px)/(1280 - 480) * (150 - 33) + 33vh);
+}
+
+.main .and {
+	margin-left: calc( (100vw - 480px)/(1280 - 480) * (50 - 20) + 20px);
+	margin-right: calc( (100vw - 480px)/(1280 - 480) * (65 - 20) + 20px);
+	margin-top: calc( (100vw - 480px)/(1280 - 480) * (90 - 30) + 30px);
+}
+
+.and h1 {
+	font-size: calc( (100vw - 480px)/(1280 - 480) * (40 - 13) + 13vh);
+	text-align: center;
+	margin: 0;
+}
+
+.main .ttclogo {
+	width: calc( (100vw - 480px)/(1280 - 480) * (200 - 35) + 35vh);
+	margin-top: calc( (100vw - 480px)/(1280 - 480) * (50 - 30) + 30px);
+}
+
+.section2 {
+	height: 100vh;
+	background-color: #1d8eea;
+}
+
+.section2 h1 {
+		font-size: calc( (100vw - 480px)/(1280 - 480) * (25 - 5) + 5vh);
+}
+
+.section3 {
+	height: 100vh;
+}
+
+.section4 {
+	height: 100vh;
+	background-color: #fec223;
+}
+
+h1 {
+	text-align: center;
+	font-size: calc( (100vw - 480px)/(1280 - 480) * (6 - 5) + 5vh);
+	color: #fff;
+	font-family: 'Bree Serif', serif;
+}
+
+
+h1::selection {
+	background-color: #fec223;
+}
